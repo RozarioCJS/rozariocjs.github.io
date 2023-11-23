@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Untitledpurp.png" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Development Student</p>
+        <h1>Hi, I'm <span>Rozario</span></h1>
+      </div>
+    </div>
+  </div>
+
+<!--About-->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/fit.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Broke and movtivated, hire me please :)</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('interests')">Interests</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Lanuages</span><br>C#, JavaScript, Python</li>
+              <li><span>SQL</span><br>Knowledgeable in SQL</li>
+              <li><span>Linux</span><br>Solid Linux System Knowledge</li>
+              <li><span>Web Development (kinda)</span><br>Web Design</li>
+              <li><span>Arduino</span><br>Experience In Hands-on Development and Trouble Shooting on Arduino</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>None</span><br>No work experience, hoping you'll be my first</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022</span><br>Dip(Information Tech: Software Dev): Nelson Mandela University</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="interests">
+            <ul>
+              <li><span>Game Development</span><br>learning Game Development in godot</li>
+              <li><span>C++</span><br>Interested in learning C++</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
