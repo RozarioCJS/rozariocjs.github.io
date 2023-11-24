@@ -190,7 +190,7 @@ nav ul li a:hover::after{
   transform: scale(1.1);
 }
 .work:hover .layer{
-  height: 50%;
+  height: 100%;
 }
 .btn{
   display: block;
@@ -250,10 +250,10 @@ form input, form textarea{
   width: 100%;
   border: 0;
   outline: none;
-  background:#ababab;
+  background:#262626;
   padding: 15px;
   margin: 15px 0;
-  color: #BF40BF;
+  color: #fff;
   font-size: 18px;
   border-radius: 16px;
 }
@@ -335,4 +335,9 @@ nav .fa-solid{
   .copyright{
     font-size: 14px;
   }
+}
+#msg{
+  color:#BF40BF;
+  margin-top: -40px;
+  display: block;
 }
